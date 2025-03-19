@@ -240,9 +240,22 @@ dd {
     border-radius: 4px;
 }
 
+.project-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 4px;
+    display: block;
+}
+
 @media (max-width: 768px) {
     .project-preview iframe {
         height: 250px;
+    }
+    
+    .project-image {
+        max-height: 250px;
     }
 }
 
